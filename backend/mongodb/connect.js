@@ -12,10 +12,9 @@ const connectDB = (url) => {
 
 
 
-
 mongoose.connection.on("disconnected", () => {
     console.log("mongoDB disconnected!");
-  });
+});
 
 
 

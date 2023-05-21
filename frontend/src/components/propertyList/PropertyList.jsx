@@ -5,7 +5,7 @@ import "./propertyList.css"
 const PropertyList = () => {
 
 
-  const { data, loading, error } = useFetch("http://localhost:8800/api/hotels/countByType");
+  const { data, loading, error } = useFetch("https://getsetbooking.onrender.com/api/hotels/countByType");
 
 
   const images = [
